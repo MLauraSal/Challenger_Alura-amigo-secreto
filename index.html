@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Sweetalert2 -->
+  <link rel="stylesheet" href="sweetalert2.min.css">
+
+  <title>Amigo Secreto</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-banner">
+      <p>Sorteo</p>
+      <h1>AMIGO SECRETO </h1>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="section-1">
+      <div class="section-1_content">
+        <div class="input-content">
+          <h1>Sortear Amigo</h1>
+          <input type="text" id="input-name" placeholder="Ingresá un nombre">
+        </div>
+
+        <div class="contador_content">
+          <h2 id="resultado"></h2>
+          <p id="contador">Amigos cargados: 0 / 20</p>
+        </div>
+
+        <div class="btn">
+          <button onclick="agregar()">Agregar</button>
+          <button onclick="sortear()">Sortear</button>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="list-container">
+        <h2>Nombres cargados:</h2>
+        <div class="list-content">
+          <ul id="list-names"></ul>
+        </div>
+      </div>
+
+      <div class="sorteados-container">
+        <h2>Nombres ya sorteados:</h2>
+        <div class="sorteados-content">
+          <ul id="listaSorteados"></ul>
+        </div>
+      </div>
+
+      <div class="section-2_btn">
+
+        <button onclick="reiniciar()">Reiniciar</button>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank">
+          <box-icon name='facebook' type='logo' color='#ffffff' ></box-icon></a>
+        <a href="https://github.com/MLauraSal"target="_blank"
+          ><box-icon type='logo' name='github' color='#ffffff'></box-icon></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><box-icon type='logo' name='instagram' color='#ffffff' ></box-icon></a>
+        <a href="https://www.linkedin.com/in/mariana-salgueiro-29278a267/"target="_blank"
+          ><box-icon type='logo' name='linkedin-square'  color='#ffffff'></box-icon></a>
+      </div>
+
+    <!-- Copyright -->
+
+    <div class="copyright">
+      <p> &copy; 2025 -<span>Salgueiro, Mariana</span>-Bs.As, Argentina-Todos los Derechos Reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Boxicons -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Canvas -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- Script -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
