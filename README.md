@@ -69,7 +69,7 @@ JavaScript es clave para la interacción y dinamismo en la página.
 
 1. **Clonar o descargar el proyecto**
    ```bash
-   git clone https://github.com/usuario/amigo-secreto.git
+  git@github.com:MLauraSal/Challenger_Alura-amigo-secreto.git
    cd amigo-secreto
 
 ## Estructura de archivos
