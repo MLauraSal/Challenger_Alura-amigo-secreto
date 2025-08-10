@@ -69,8 +69,9 @@ JavaScript es clave para la interacción y dinamismo en la página.
 
 1. **Clonar o descargar el proyecto**
    ```bash
-  git@github.com:MLauraSal/Challenger_Alura-amigo-secreto.git
+    git@github.com:MLauraSal/Challenger_Alura-amigo-secreto.git
    cd amigo-secreto
+
 
 ## Estructura de archivos
 /amigo-secreto
@@ -106,9 +107,9 @@ JavaScript es clave para la interacción y dinamismo en la página.
 
     En todo momento podrás ver:
 
-        Cuántos amigos están cargados.
+   - Cuántos amigos están cargados.
 
-        Cuántos sorteos faltan.
+   - Cuántos sorteos faltan.
 
 4. Reiniciar el sorteo
 
@@ -118,38 +119,35 @@ JavaScript es clave para la interacción y dinamismo en la página.
 
 📂 Persistencia con LocalStorage
 
-    Datos guardados:
+   ### Datos guardados:
 
-        Lista de amigos cargados (names)
+  - Lista de amigos cargados (names)
 
-        Lista de amigos sorteados (sorteados)
+  - Lista de amigos sorteados (sorteados)
 
-    Ventajas:
+   ### Ventajas:
+   - No se pierden los datos si se recarga o se cierra la pestaña.
 
-        No se pierden los datos si se recarga o se cierra la pestaña.
-
-        Solo se borran con la opción "Reiniciar".
+   - Solo se borran con la opción "Reiniciar".
 
 📱 Responsive Design
 
-    En pantallas menores a 650px, el diseño se adapta para que:
+  ### En pantallas menores a 650px, el diseño se adapta para que:
 
-        Las secciones se muestren una debajo de otra.
+  -  Las secciones se muestren una debajo de otra.
 
-        Botones y textos sean más pequeños para una mejor visualización.
-
+  - Botones y textos sean más pequeños para una mejor visualización.
+  - 
 📌 Mejoras futuras
+  - Agregar opción de importar/exportar listas de participantes.
 
-    Agregar opción de importar/exportar listas de participantes.
+  - Posibilidad de personalizar el límite de participantes.
 
-    Posibilidad de personalizar el límite de participantes.
+  - Cambiar los colores del contador cuando queden pocos sorteos.
 
-    Cambiar los colores del contador cuando queden pocos sorteos.
-
-    Animaciones adicionales al agregar o eliminar nombres.
+  - Animaciones adicionales al agregar o eliminar nombres.
 
 👩‍💻 Autor
 
-    Mariana Salgueiro
-   
+ Mariana Salgueiro
 
